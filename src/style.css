@@ -1,0 +1,174 @@
+/* NORMALIZING */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+}
+
+
+html {
+    width: 100%;
+    height: 100%;
+    line-height: 1.5;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4, button, input, label {
+  line-height: 1.1;
+}
+
+/* Improve line wrapping */
+p {
+    text-wrap: pretty;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+  
+/* Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+/* Improve media defaults */
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* Inherit fonts for form controls */
+input, button, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  
+td, th {
+    padding: 10px 20px;
+}
+
+th {
+    background-color: #e17f10;
+    border: 1px solid black;
+}
+
+td {
+    text-align: center;
+    background-color: #f8e8b6;
+    border: 1px solid black;
+}
+
+/* tr:nth-child(even) td {
+    background-color: rgb(250,250,250);
+}
+
+tr:nth-child(odd) td {
+    background-color: rgb(240,240,240);
+} */
+
+
+/* APP STYLING */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8e8b6;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: #F1B80E;
+}
+
+header > nav{
+}
+
+header > nav > button{
+    padding: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color:  #f8e8b6;
+    border-radius: 5px;
+}
+
+#restaurant-title{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color:  #F1B80E;
+    /* margin-left: auto */
+}
+
+.main-content{
+    gap: 15px;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%
+}
+
+.smoothie-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.smoothie-images > img{
+    height: 100%;
+}
+
+.hours-content{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 50%;
+    background-color:  #F1B80E
+}
+
+.aboutus-content{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 50%;
+    background-color:  #F1B80E;
+}
+
+h2{
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black
+}
+
+
