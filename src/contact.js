@@ -68,6 +68,7 @@ export const addContactContent = () => {
     firstNameInput.setAttribute("type", "text");
     firstNameInput.setAttribute("id", "firstName");
     firstNameInput.setAttribute("placeholder", "Bob");
+    firstNameInput.setAttribute("required", "");
     firstNameContainer.appendChild(firstNameInput);
     formRow1.appendChild(firstNameContainer);
 
@@ -81,6 +82,7 @@ export const addContactContent = () => {
     lastNameInput.setAttribute("type", "text");
     lastNameInput.setAttribute("id", "lastName");
     lastNameInput.setAttribute("placeholder", "Smith");
+    lastNameInput.setAttribute("required", "");
     lastNameContainer.appendChild(lastNameInput);
     formRow1.appendChild(lastNameContainer);
     messageForm.appendChild(formRow1);
@@ -99,6 +101,7 @@ export const addContactContent = () => {
     emailInput.setAttribute("type", "email");
     emailInput.setAttribute("id", "email");
     emailInput.setAttribute("placeholder", "bob@gmail.com");
+    emailInput.setAttribute("required", "");
     emailContainer.appendChild(emailInput);
     formRow2.appendChild(emailContainer);
 
@@ -112,6 +115,7 @@ export const addContactContent = () => {
     phoneInput.setAttribute("type", "tel");
     phoneInput.setAttribute("id", "phoneNumber");
     phoneInput.setAttribute("placeholder", "6474435567");
+    phoneInput.setAttribute("required", "");
     phoneContainer.appendChild(phoneInput);
     formRow2.appendChild(phoneContainer);
     messageForm.appendChild(formRow2);
@@ -129,6 +133,7 @@ export const addContactContent = () => {
     const messageTextArea = document.createElement("textarea");
     messageTextArea.setAttribute("name", "message");
     messageTextArea.setAttribute("id", "message");
+    messageTextArea.setAttribute("required", "");
     messageContainer.appendChild(messageTextArea);
     formRow3.appendChild(messageContainer);
     messageForm.appendChild(formRow3);
