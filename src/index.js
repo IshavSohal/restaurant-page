@@ -32,5 +32,5 @@ menuButton.addEventListener("click", () => {
     addMenuContent();
 });
 
-// const clickEvent = new Event("click");
-// homeButton.dispatchEvent(clickEvent);
+const clickEvent = new Event("click");
+homeButton.dispatchEvent(clickEvent);
