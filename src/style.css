@@ -276,7 +276,9 @@ header > nav > button{
     height: 100px;
 }
 
-
+.form-row textarea:hover, .form-row textarea:focus{
+    box-shadow: 2px 2px 4px;
+}
 
 input{
     appearance: none;
@@ -290,7 +292,6 @@ input{
 
 input:hover, input:focus{
     box-shadow: 2px 2px 4px;
-    
 }
 
 .form-submit {
